@@ -1,1 +1,1 @@
-# JavaDesignPattern
+# This is just for Java design pattern notes.
