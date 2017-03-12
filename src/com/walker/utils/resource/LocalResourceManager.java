@@ -33,10 +33,10 @@ public class LocalResourceManager {
     }
 
     private LocalResourceManager() {
-        initiateConfig();
+        initConfig();
     }
 
-    private void initiateConfig() {
+    private void initConfig() {
         try {
             ILocalResource mProp = new PropertyLocalResource();
             mProp.setSourceFile(ConfigConstants.DEFAULT_BASE_CONFIG_FILE_URL);
@@ -76,7 +76,7 @@ public class LocalResourceManager {
 
     private boolean checkStatus() {
         if (getLocalResource() == null) {
-            System.out.println("Initiate failed!");
+            System.out.println("Init failed!");
             return false;
         }
         return true;
