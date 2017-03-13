@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
-    <url>http://114.255.71.158:8061/?</url>
-    <username>iss-fes</username>
-    <password>******</password>
-    <epid>100163</epid>
+    <test>This is test info</test>
 </config>
