@@ -1,4 +1,4 @@
-package com.walker.pattern.singleton;
+package com.walker.pattern.creational.singleton;
 
 /**
  * ${DESCRIPTION}
@@ -20,26 +20,26 @@ public class LazySingleton {
      *
      * @return
      */
-//    synchronized public static LazySingleton getInstance() {
-//        if (instance == null) {
-//            instance = new LazySingleton();
-//        }
-//        return instance;
-//    }
+    //    synchronized public static LazySingleton getInstance() {
+    //        if (instance == null) {
+    //            instance = new LazySingleton();
+    //        }
+    //        return instance;
+    //    }
 
     /**
      * Type 2
      *
      * @return
      */
-//    public static LazySingleton getInstance() {
-//        if (instance == null) {
-//            synchronized (LazySingleton.class) {
-//                instance = new LazySingleton();
-//            }
-//        }
-//        return instance;
-//    }
+    //    public static LazySingleton getInstance() {
+    //        if (instance == null) {
+    //            synchronized (LazySingleton.class) {
+    //                instance = new LazySingleton();
+    //            }
+    //        }
+    //        return instance;
+    //    }
 
     /**
      * Type 3
@@ -56,6 +56,5 @@ public class LazySingleton {
         }
         return instance;
     }
-
 
 }

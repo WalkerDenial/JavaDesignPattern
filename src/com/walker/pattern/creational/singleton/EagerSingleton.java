@@ -1,4 +1,4 @@
-package com.walker.pattern.singleton;
+package com.walker.pattern.creational.singleton;
 
 /**
  * ${DESCRIPTION}
