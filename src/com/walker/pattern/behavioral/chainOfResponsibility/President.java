@@ -15,7 +15,7 @@ public class President extends Approver {
 
     @Override
     void processRequest(PurchaseRequest request) {
-        if(request.getAmount() < 4){
+        if(request.getAmount() < 1){
             // TODO: 2017/3/15
         } else {
             if (successor != null) {
