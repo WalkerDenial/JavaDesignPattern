@@ -1,5 +1,8 @@
 package com.walker.pattern.creational.factory.simple;
 
+import com.walker.pattern.creational.factory.simple.source.Apple;
+import com.walker.pattern.creational.factory.simple.source.Fruit;
+
 public class FactoryTest {
 
     /**
@@ -17,15 +20,15 @@ public class FactoryTest {
     private static void normalEat() {
         // Jack 吃苹果
         Apple jackApple = new Apple(); // Step.1 创建苹果
-        jackApple.eat(); // Step.2 吃苹果
+        jackApple.eatFruit(); // Step.2 吃苹果
 
         // Tom 吃苹果
         Apple tomApple = new Apple(); // Step.1 创建苹果
-        tomApple.eat(); // Step.2 吃苹果
+        tomApple.eatFruit(); // Step.2 吃苹果
 
         // Anna 吃苹果
         Apple annaApple = new Apple(); // Step.1 创建苹果
-        annaApple.eat(); // Step.2 吃苹果
+        annaApple.eatFruit(); // Step.2 吃苹果
 
         /**
          * 有没有发现问题？
@@ -46,13 +49,13 @@ public class FactoryTest {
          * 3. 哪怕创建对象很复杂，也不需要关系，由工厂负责处理，降低使用成本
          */
         Fruit jackApple = FruitFactory.getFruit(FruitFactory.TYPE_APPLE);
-        jackApple.eat();
+        jackApple.eatFruit();
 
         Fruit tomApple = FruitFactory.getFruit(FruitFactory.TYPE_APPLE);
-        tomApple.eat();
+        tomApple.eatFruit();
 
         Fruit annaApple = FruitFactory.getFruit(FruitFactory.TYPE_APPLE);
-        annaApple.eat();
+        annaApple.eatFruit();
     }
 
 }
