@@ -1,4 +1,4 @@
-package com.walker.pattern.creational.builder;
+package com.walker.pattern.creational.builder.source;
 
 /**
  * ${DESCRIPTION}
@@ -37,6 +37,15 @@ public class Actor {
 
     public void setFace(String face) {
         this.face = face;
+    }
+
+    @Override
+    public String toString() {
+        return "Actor{" +
+                "type='" + type + '\'' +
+                ", sex='" + sex + '\'' +
+                ", face='" + face + '\'' +
+                '}';
     }
 
 }
