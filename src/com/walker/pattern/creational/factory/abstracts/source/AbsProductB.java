@@ -1,4 +1,4 @@
-package com.walker.pattern.creational.factory.abstracts;
+package com.walker.pattern.creational.factory.abstracts.source;
 
 /**
  * ${DESCRIPTION}
@@ -10,8 +10,8 @@ package com.walker.pattern.creational.factory.abstracts;
 public class AbsProductB extends AbsProduct {
 
     @Override
-    void printLog() {
-
+    public void printLog() {
+        System.out.println("实现方式 B");
     }
 
 }
