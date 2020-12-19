@@ -11,7 +11,8 @@ public class FactoryTest {
      * @param args
      */
     public static void main(String[] args) {
-
+        normalEat();
+        factoryEat();
     }
 
     /**
@@ -32,7 +33,7 @@ public class FactoryTest {
 
         /**
          * 有没有发现问题？
-         * 1. 要吃个水果还要自己重水果;
+         * 1. 要吃个水果还要自己种水果;
          * 2. 其他人不知道有没有苹果这类水果，自己也会去新建一个，那么就会出现重复；
          * 3. 如果水果获取或打开的时候过于复杂，比如椰子，那不是要疯了；
          * 4. 写成单例能解决重复的问题，但是别人由于不知情，破坏掉了对象呢？维护成本很大；
