@@ -11,12 +11,12 @@ public class SRS implements OfficialDocument {
 
     @Override
     public OfficialDocument clone() {
-        return null;
+        return this;
     }
 
     @Override
     public void display() {
-
+        System.out.println("SRS display");
     }
 
 }
