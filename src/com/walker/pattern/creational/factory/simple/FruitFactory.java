@@ -1,5 +1,9 @@
 package com.walker.pattern.creational.factory.simple;
 
+import com.walker.pattern.creational.factory.simple.source.Apple;
+import com.walker.pattern.creational.factory.simple.source.Fruit;
+import com.walker.pattern.creational.factory.simple.source.Orange;
+
 /**
  * 水果工厂
  */
