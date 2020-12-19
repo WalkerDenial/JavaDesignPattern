@@ -11,12 +11,12 @@ public class FAR implements OfficialDocument {
 
     @Override
     public OfficialDocument clone() {
-        return null;
+        return this;
     }
 
     @Override
     public void display() {
-
+        System.out.println("FAR display");
     }
 
 }

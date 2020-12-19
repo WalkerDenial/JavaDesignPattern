@@ -9,11 +9,11 @@ package com.walker.pattern.structural.adapter;
  */
 public class Adapter implements Target {
 
-    private Adaptee adaptee = new Adaptee();
+    private Adapted adapted = new Adapted();
 
     @Override
     public void request() {
-        adaptee.specificRequest();
+        adapted.specificRequest();
     }
 
 }

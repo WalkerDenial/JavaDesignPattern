@@ -7,7 +7,7 @@ package com.walker.pattern.structural.adapter;
  * @Email WalkerDenial@gmail.com
  * @Time Created at 2017/3/14 20:21.
  */
-public class Adaptee {
+public class Adapted {
 
     public void specificRequest() {
 
