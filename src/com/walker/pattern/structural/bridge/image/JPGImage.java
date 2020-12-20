@@ -1,5 +1,7 @@
 package com.walker.pattern.structural.bridge.image;
 
+import com.walker.pattern.structural.bridge.system.Matrix;
+
 /**
  * ${DESCRIPTION}
  *
@@ -9,7 +11,8 @@ package com.walker.pattern.structural.bridge.image;
  */
 public class JPGImage extends Image {
     @Override
-    void parseFile(String fileName) {
-
+    public void parseFile(String fileName) {
+        imp.doPaint(new Matrix());
+        System.out.println("parse jpg file");
     }
 }

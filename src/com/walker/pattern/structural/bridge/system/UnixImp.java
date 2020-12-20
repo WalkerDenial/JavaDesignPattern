@@ -12,6 +12,6 @@ import com.walker.pattern.structural.bridge.image.ImageImp;
 public class UnixImp implements ImageImp {
     @Override
     public void doPaint(Matrix m) {
-
+        System.out.println("paint unix impl");
     }
 }
