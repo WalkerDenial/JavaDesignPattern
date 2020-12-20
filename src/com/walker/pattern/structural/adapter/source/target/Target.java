@@ -1,7 +1,7 @@
-package com.walker.pattern.structural.adapter;
+package com.walker.pattern.structural.adapter.source.target;
 
 /**
- * ${DESCRIPTION}
+ * 目标类接口
  *
  * @Author Walker Denial
  * @Email WalkerDenial@gmail.com
