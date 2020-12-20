@@ -13,4 +13,4 @@ hs_err_pid*
 .idea
 out/
 *.iml
-/src/com/walker/test/
+/src/com/walker/tests/
