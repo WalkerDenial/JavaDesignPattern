@@ -1,4 +1,4 @@
-package com.walker.pattern.structural.decorator;
+package com.walker.pattern.structural.decorator.source.document;
 
 /**
  * ${DESCRIPTION}
@@ -7,9 +7,9 @@ package com.walker.pattern.structural.decorator;
  * @Email WalkerDenial@gmail.com
  * @Time Created at 2017/3/14 21:29.
  */
-public class PurchaseRequest implements Document {
+public class LeaveRequest implements Document {
     @Override
     public void display() {
-
+        System.out.println("leave request");
     }
 }

@@ -1,4 +1,4 @@
-package com.walker.pattern.structural.proxy;
+package com.walker.pattern.structural.proxy.source.searcher;
 
 /**
  * ${DESCRIPTION}

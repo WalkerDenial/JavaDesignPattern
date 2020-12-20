@@ -1,4 +1,6 @@
-package com.walker.pattern.structural.decorator;
+package com.walker.pattern.structural.decorator.source;
+
+import com.walker.pattern.structural.decorator.source.document.Document;
 
 /**
  * ${DESCRIPTION}
@@ -13,8 +15,9 @@ public class Approver extends Decorator {
         super(document);
     }
 
-    public void approve(){
-
+    @Override
+    public void display() {
+        System.out.println("approve Decorator");
+        display();
     }
-
 }

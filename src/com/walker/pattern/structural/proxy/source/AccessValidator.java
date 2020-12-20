@@ -1,4 +1,4 @@
-package com.walker.pattern.structural.proxy;
+package com.walker.pattern.structural.proxy.source;
 
 /**
  * ${DESCRIPTION}
@@ -10,7 +10,7 @@ package com.walker.pattern.structural.proxy;
 public class AccessValidator {
     
     public boolean validate(String id){
-        // TODO: 2017/3/14  
+        System.out.println("AccessValidator validate " + id);
         return true;
     }
     

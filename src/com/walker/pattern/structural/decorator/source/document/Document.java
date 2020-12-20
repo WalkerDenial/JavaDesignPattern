@@ -1,4 +1,4 @@
-package com.walker.pattern.structural.decorator;
+package com.walker.pattern.structural.decorator.source.document;
 
 /**
  * ${DESCRIPTION}

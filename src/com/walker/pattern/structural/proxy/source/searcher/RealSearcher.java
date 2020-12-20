@@ -1,4 +1,4 @@
-package com.walker.pattern.structural.proxy;
+package com.walker.pattern.structural.proxy.source.searcher;
 
 /**
  * ${DESCRIPTION}
@@ -10,6 +10,6 @@ package com.walker.pattern.structural.proxy;
 public class RealSearcher implements Searcher {
     @Override
     public String doSearch(String id, String pwd) {
-        return null;
+        return "RealSearcher doSearch id: " + id + ", pwd: " + pwd;
     }
 }

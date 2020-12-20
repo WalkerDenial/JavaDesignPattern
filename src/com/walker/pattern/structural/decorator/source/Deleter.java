@@ -1,4 +1,6 @@
-package com.walker.pattern.structural.decorator;
+package com.walker.pattern.structural.decorator.source;
+
+import com.walker.pattern.structural.decorator.source.document.Document;
 
 /**
  * ${DESCRIPTION}
@@ -14,7 +16,8 @@ public class Deleter extends Decorator {
     }
 
     public void delete() {
-
+        System.out.println("delete Decorator");
+        display();
     }
 
 }

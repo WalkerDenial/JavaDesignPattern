@@ -1,4 +1,4 @@
-package com.walker.pattern.structural.composite;
+package com.walker.pattern.structural.composite.source;
 
 /**
  * ${DESCRIPTION}
@@ -9,6 +9,6 @@ package com.walker.pattern.structural.composite;
  */
 public abstract class Component {
 
-    abstract void operation();
+    public abstract void operation();
 
 }
