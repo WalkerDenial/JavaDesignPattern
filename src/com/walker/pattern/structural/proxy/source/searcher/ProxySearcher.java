@@ -1,4 +1,7 @@
-package com.walker.pattern.structural.proxy;
+package com.walker.pattern.structural.proxy.source.searcher;
+
+import com.walker.pattern.structural.proxy.source.AccessValidator;
+import com.walker.pattern.structural.proxy.source.Logger;
 
 /**
  * ${DESCRIPTION}
@@ -17,14 +20,17 @@ public class ProxySearcher implements Searcher {
 
     @Override
     public String doSearch(String id, String pwd) {
-        return null;
+        System.out.println("ProxySearcher doSearch id: " + id + ", pwd: " + pwd);
+        return searcher.doSearch(id, pwd);
     }
 
     public boolean validate(String id) {
+        System.out.println("ProxySearcher validate id " + id);
         return validator.validate(id);
     }
 
     public void log(String id) {
+        System.out.println("ProxySearcher log " + id);
         logger.log(id);
     }
 

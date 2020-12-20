@@ -1,4 +1,4 @@
-package com.walker.pattern.structural.composite;
+package com.walker.pattern.structural.composite.source;
 
 /**
  * ${DESCRIPTION}
@@ -9,7 +9,7 @@ package com.walker.pattern.structural.composite;
  */
 public class Leaf extends Component {
     @Override
-    void operation() {
-
+    public void operation() {
+        System.out.println("leaf operation");
     }
 }

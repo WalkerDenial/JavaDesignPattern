@@ -1,4 +1,6 @@
-package com.walker.pattern.structural.decorator;
+package com.walker.pattern.structural.decorator.source;
+
+import com.walker.pattern.structural.decorator.source.document.Document;
 
 /**
  * ${DESCRIPTION}
@@ -15,9 +17,14 @@ public class Decorator implements Document {
         this.document = document;
     }
 
+    public void approve() {
+        System.out.println("Decorator");
+    }
+
     @Override
     public void display() {
-
+        System.out.println("Decorator display");
+        approve();
     }
 
 }

@@ -1,4 +1,4 @@
-package com.walker.pattern.structural.proxy;
+package com.walker.pattern.structural.proxy.source;
 
 /**
  * ${DESCRIPTION}
@@ -10,7 +10,7 @@ package com.walker.pattern.structural.proxy;
 public class Logger {
 
     public void log(String id) {
-
+        System.out.println("Logger log " + id);
     }
 
 }
