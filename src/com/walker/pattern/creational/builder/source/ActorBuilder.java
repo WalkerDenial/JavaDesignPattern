@@ -17,10 +17,19 @@ public abstract class ActorBuilder {
 
     protected String face;
 
+    /**
+     * 构建演员类别
+     */
     public abstract void buildType();
 
+    /**
+     * 构建性别
+     */
     public abstract void buildSex();
 
+    /**
+     * 构建脸型
+     */
     public abstract void buildFace();
 
     /**

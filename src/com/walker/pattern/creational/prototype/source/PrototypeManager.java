@@ -1,4 +1,4 @@
-package com.walker.pattern.creational.prototype;
+package com.walker.pattern.creational.prototype.source;
 
 import com.sun.istack.internal.NotNull;
 import com.walker.utils.tools.StringUtil;
@@ -14,6 +14,9 @@ import java.util.Hashtable;
  */
 public class PrototypeManager {
 
+    /**
+     * Table 容器装载对象
+     */
     private Hashtable<String, OfficialDocument> ht = new Hashtable<>();
 
     private static PrototypeManager pm = new PrototypeManager();
@@ -26,10 +29,20 @@ public class PrototypeManager {
         return pm;
     }
 
+    /**
+     * 添加新的文档类型
+     * @param key
+     * @param doc
+     */
     public void addOfficialDocument(@NotNull String key, @NotNull OfficialDocument doc) {
-        // TODO: 2017/3/14
+        ht.put(key, doc);
     }
 
+    /**
+     * 从缓存中获取文档类型对象
+     * @param key
+     * @return
+     */
     public OfficialDocument getOfficialDocument(@NotNull String key) {
         if (ht == null || ht.size() < 1 || StringUtil.isBlank(key)) return null;
         return ht.get(key).clone();
