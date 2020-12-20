@@ -21,5 +21,4 @@ public class FactoryTest {
         orange.eatFruit();
     }
 
-
 }

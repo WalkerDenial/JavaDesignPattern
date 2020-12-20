@@ -1,4 +1,4 @@
-package com.walker.pattern.structural.bridge;
+package com.walker.pattern.structural.bridge.system;
 
 /**
  * ${DESCRIPTION}

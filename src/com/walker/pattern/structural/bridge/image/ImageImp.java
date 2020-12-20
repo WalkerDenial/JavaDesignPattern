@@ -1,4 +1,6 @@
-package com.walker.pattern.structural.bridge;
+package com.walker.pattern.structural.bridge.image;
+
+import com.walker.pattern.structural.bridge.system.Matrix;
 
 /**
  * ${DESCRIPTION}

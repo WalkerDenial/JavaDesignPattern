@@ -9,11 +9,11 @@ package com.walker.pattern.creational.builder.source;
  */
 public class Actor {
 
-    private String type;
+    private String type; // 类型
 
-    private String sex;
+    private String sex; // 性别
 
-    private String face;
+    private String face; // 脸型
 
     public String getType() {
         return type;
