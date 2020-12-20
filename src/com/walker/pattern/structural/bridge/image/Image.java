@@ -15,6 +15,6 @@ public abstract class Image {
         this.imp = imp;
     }
 
-    abstract void parseFile(String fileName);
+    public abstract void parseFile(String fileName);
 
 }
