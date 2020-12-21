@@ -19,4 +19,9 @@ public class HRDDepartment extends Department {
         System.out.println("HRDDepartment visit PartTimeEmployee");
     }
 
+    @Override
+    public void visit(Employee employee) {
+        System.out.println("HRDDepartment visit Employee");
+    }
+
 }

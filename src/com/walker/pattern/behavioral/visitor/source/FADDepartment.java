@@ -19,4 +19,9 @@ public class FADDepartment extends Department {
         System.out.println("FADDepartment visit PartTimeEmployee");
     }
 
+    @Override
+    public void visit(Employee employee) {
+        System.out.println("FADDepartment visit Employee");
+    }
+
 }
