@@ -19,10 +19,7 @@ public class EmployeeList {
     }
 
     public void accept(Department department) {
-        for (Employee item : list) {
-            if (item instanceof FullTimeEmployee) department.visit((FullTimeEmployee) item);
-            if (item instanceof PartTimeEmployee) department.visit((PartTimeEmployee) item);
-        }
+        for (Employee item : list) department.visit(item);
     }
 
 }
