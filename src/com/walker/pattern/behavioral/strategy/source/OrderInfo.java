@@ -1,7 +1,7 @@
-package com.walker.pattern.behavioral.strategy;
+package com.walker.pattern.behavioral.strategy.source;
 
 /**
- * ${DESCRIPTION}
+ * 订单信息
  *
  * @Author Walker Denial
  * @Email WalkerDenial@gmail.com
