@@ -1,4 +1,4 @@
-package com.walker.pattern.behavioral.chainOfResponsibility;
+package com.walker.pattern.behavioral.chain.source;
 
 /**
  * ${DESCRIPTION}

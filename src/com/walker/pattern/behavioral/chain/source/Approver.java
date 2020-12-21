@@ -1,4 +1,4 @@
-package com.walker.pattern.behavioral.chainOfResponsibility;
+package com.walker.pattern.behavioral.chain.source;
 
 /**
  * ${DESCRIPTION}
@@ -21,6 +21,8 @@ public abstract class Approver {
         this.successor = successor;
     }
 
-    abstract void processRequest(PurchaseRequest request);
+    public void processRequest(PurchaseRequest request) {
+        if (successor != null) successor.processRequest(request);
+    }
 
 }
