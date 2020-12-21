@@ -1,4 +1,4 @@
-package com.walker.pattern.behavioral.visitor;
+package com.walker.pattern.behavioral.visitor.source;
 
 /**
  * ${DESCRIPTION}
@@ -7,13 +7,13 @@ package com.walker.pattern.behavioral.visitor;
  * @Email WalkerDenial@gmail.com
  * @Time Created at 2017/3/16 14:53.
  */
-public class PartTimeEmployee implements Employee {
+public class FullTimeEmployee implements Employee {
 
     private String name;
     private double weeklyWage;
     private int workTime;
 
-    public PartTimeEmployee(String name, double weeklyWage, int workTime) {
+    public FullTimeEmployee(String name, double weeklyWage, int workTime) {
         this.name = name;
         this.weeklyWage = weeklyWage;
         this.workTime = workTime;
@@ -45,7 +45,7 @@ public class PartTimeEmployee implements Employee {
 
     @Override
     public void accept(Department handler) {
-
+        handler.visit(this);
     }
 
 }
