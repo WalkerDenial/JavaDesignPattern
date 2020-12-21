@@ -1,4 +1,4 @@
-package com.walker.pattern.behavioral.observer;
+package com.walker.pattern.behavioral.observer.source;
 
 /**
  * ${DESCRIPTION}
@@ -7,14 +7,15 @@ package com.walker.pattern.behavioral.observer;
  * @Email WalkerDenial@gmail.com
  * @Time Created at 2017/3/16 13:43.
  */
-public class LoginvalidatorA implements LoginEventListener {
+public class LoginValidatorA implements LoginEventListener {
 
-    public LoginvalidatorA() {
+    public LoginValidatorA() {
 
     }
 
     @Override
     public void validateLogin(LoginEvent event) {
-
+        System.out.println("LoginValidatorA has called");
     }
+
 }
