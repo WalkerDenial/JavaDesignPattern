@@ -1,4 +1,4 @@
-package com.walker.pattern.behavioral.command;
+package com.walker.pattern.behavioral.command.source;
 
 /**
  * ${DESCRIPTION}
@@ -9,8 +9,8 @@ package com.walker.pattern.behavioral.command;
  */
 public class WindowHandler {
 
-    public void minimize(){
-
+    public void minimize() {
+        System.out.println("WindowHandler minimize");
     }
 
 }
