@@ -1,4 +1,4 @@
-package com.walker.pattern.behavioral.command;
+package com.walker.pattern.behavioral.command.source;
 
 /**
  * ${DESCRIPTION}
@@ -17,7 +17,8 @@ public class MinimizeCommand extends Command {
 
     @Override
     void execute() {
-
+        System.out.println("MinimizeCommand execute");
+        handler.minimize();
     }
 
 }

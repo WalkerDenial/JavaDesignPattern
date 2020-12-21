@@ -1,4 +1,4 @@
-package com.walker.pattern.behavioral.command;
+package com.walker.pattern.behavioral.command.source;
 
 /**
  * ${DESCRIPTION}
@@ -10,7 +10,7 @@ package com.walker.pattern.behavioral.command;
 public class HelpHandler {
 
     public void display(){
-        
+        System.out.println("HelpHandler display");
     }
 
 }

@@ -1,4 +1,4 @@
-package com.walker.pattern.behavioral.command;
+package com.walker.pattern.behavioral.command.source;
 
 /**
  * ${DESCRIPTION}
@@ -26,7 +26,7 @@ public class FunctionButton {
     }
 
     public void onClick() {
-
+        if (command != null) command.execute();
     }
 
 }
