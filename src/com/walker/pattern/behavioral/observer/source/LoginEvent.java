@@ -1,4 +1,4 @@
-package com.walker.pattern.behavioral.observer;
+package com.walker.pattern.behavioral.observer.source;
 
 /**
  * ${DESCRIPTION}
