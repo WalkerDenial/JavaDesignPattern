@@ -1,4 +1,4 @@
-package com.walker.pattern.behavioral.strategy;
+package com.walker.pattern.behavioral.strategy.source;
 
 /**
  * ${DESCRIPTION}
@@ -9,6 +9,11 @@ package com.walker.pattern.behavioral.strategy;
  */
 public interface IOrderStrategy {
 
+    /**
+     * 订单入库
+     *
+     * @param order
+     */
     void insert(OrderInfo order);
 
 }
