@@ -1,7 +1,7 @@
-package com.walker.pattern.behavioral.templateMethod;
+package com.walker.pattern.behavioral.template.source;
 
 /**
- * ${DESCRIPTION}
+ * 储蓄账户余额
  *
  * @Author Walker Denial
  * @Email WalkerDenial@gmail.com
@@ -9,7 +9,7 @@ package com.walker.pattern.behavioral.templateMethod;
  */
 public class SavingAccount extends Account {
     @Override
-    void calculateInterest() {
-
+    double calculateInterest() {
+        return 99;
     }
 }
